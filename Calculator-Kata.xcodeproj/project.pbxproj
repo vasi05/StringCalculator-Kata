@@ -14,6 +14,7 @@
 		949631031CC7B7B3009130DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949631021CC7B7B3009130DD /* Assets.xcassets */; };
 		949631061CC7B7B3009130DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949631041CC7B7B3009130DD /* LaunchScreen.storyboard */; };
 		949631111CC7B7B3009130DD /* Calculator_KataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949631101CC7B7B3009130DD /* Calculator_KataTests.m */; };
+		9496311D1CC7B825009130DD /* CalculatorMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 9496311C1CC7B825009130DD /* CalculatorMaster.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9496310C1CC7B7B3009130DD /* Calculator-KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator-KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949631101CC7B7B3009130DD /* Calculator_KataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator_KataTests.m; sourceTree = "<group>"; };
 		949631121CC7B7B3009130DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9496311B1CC7B825009130DD /* CalculatorMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorMaster.h; sourceTree = "<group>"; };
+		9496311C1CC7B825009130DD /* CalculatorMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorMaster.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				949631041CC7B7B3009130DD /* LaunchScreen.storyboard */,
 				949631071CC7B7B3009130DD /* Info.plist */,
 				949630F61CC7B7B3009130DD /* Supporting Files */,
+				9496311B1CC7B825009130DD /* CalculatorMaster.h */,
+				9496311C1CC7B825009130DD /* CalculatorMaster.m */,
 			);
 			path = "Calculator-Kata";
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				949630FE1CC7B7B3009130DD /* ViewController.m in Sources */,
 				949630FB1CC7B7B3009130DD /* AppDelegate.m in Sources */,
 				949630F81CC7B7B3009130DD /* main.m in Sources */,
+				9496311D1CC7B825009130DD /* CalculatorMaster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,9 @@
 //  Copyright © 2016 Vasile Croitoru. All rights reserved.
 //
 
+
+///http://osherove.com/tdd-kata-1/
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
